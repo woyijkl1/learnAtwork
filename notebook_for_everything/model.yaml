@@ -1,0 +1,43 @@
+path:
+  project_path: /home/yinrongdi/projects/yrdfra
+  data_path: data/ag_news
+  source_path: source
+  tensorboard_path: source/runs/ag_news_1
+  err_path: source/save_err/ag_news
+
+
+
+dataset:
+  train_list: train_list_figure.pkl
+  valid_list: test_list_figure.pkl
+  test_list: None
+
+vector:
+  name: glove.42B.300d.txt
+  path: /home/yinrongdi/vector
+
+training:
+  lr: 0.0001
+  epoch: 100
+  
+
+
+model:
+  embed_size: 300
+  num_channels: 100
+  hidden_size: 32
+  kernel_size :
+    - 3
+    - 4
+    - 5
+  output_size: 4
+  max_epochs: 10
+  batch_size: 32
+  max_sen_len: 20
+  dropout_keep: 0.8
+
+hardware:
+  device: 1
+  
+
+  
