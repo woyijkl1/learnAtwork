@@ -1,0 +1,6 @@
+re
+re.match('www', 'www.runoob.com').span() (0, 3)  ！！！从首字母开始开始匹配
+re.match('www', 'www.runoob.com').group() 'www'
+re.search ()返回match对象,或者none    ！！全部字符串查找
+
+re.findall(r"\d","https://docs.python.org/3/whatsnew/3.6.html")  返回数组 ['3', '3', '6'] 
