@@ -71,9 +71,20 @@ cat vertion.txt
 
 
 
+## bash 命令
+
+```
+尖括号（<>）用法：  <，可以实现“欺骗”的效果，让其它命令认为某个命令的输出是一个文件。
+diff <(ls /original/dir/) <(ls /backup/dir/)  #比较两个文件夹包含文件的差异
+```
 
 
-# shell
+
+
+
+
+
+# shell 编程
 
 ```
 比较运算
