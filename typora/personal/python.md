@@ -41,7 +41,7 @@ type(x) #dict
 * 与 **
 
 单星号（*）：*agrs
-将所以参数以元组(tuple)的形式导入：
+将所有参数以元组(tuple)的形式导入：
 >>> def foo(param1, *param2):
         print param1
         print param2

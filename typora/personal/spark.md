@@ -89,6 +89,12 @@ You could find the copying log from client machine to distributed cache in the l
 
 
 
+### shell输出级别
+
+```
+spark.SparkContext.setLogLevel("ERROR")
+```
+
 
 
 ### 启动命令

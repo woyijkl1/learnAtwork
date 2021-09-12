@@ -10,6 +10,15 @@ du -h -d 1 ./ 查看当前文件下各个文件夹的大小
 
 
 
+```
+set 用法
+-e 若指令传回值不等于0，则立即退出shell。
+-u 　当执行时使用到未定义过的变量，则显示错误信息。
+-x 　执行指令后，会先显示该指令及所下的参数。
+```
+
+
+
 chmod -R
 
 
@@ -18,7 +27,14 @@ head -100  filename >a.txt  提取前多少行
 
 
 
+```
+# run backend
 nohup ./start.sh >output 2>&1 & 
+```
+
+
+
+
 
 
 
@@ -79,6 +95,11 @@ diff <(ls /original/dir/) <(ls /backup/dir/)  #比较两个文件夹包含文件
 ```
 
 
+
+```
+yarn kill 程序
+yarn application -kill appName
+```
 
 
 
